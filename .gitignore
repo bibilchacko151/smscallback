@@ -1,0 +1,45 @@
+# Maven / Java
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Azure Functions (local dev secrets)
+local.settings.json
+
+# IDEs
+# Eclipse
+.classpath
+.project
+.settings/
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Common build folders (defensive)
+bin/
+obj/
