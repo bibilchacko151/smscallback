@@ -29,8 +29,8 @@ jobs:
 
       - name: 'Restore Project Dependencies Using Mvn'
         shell: bash
-        run: 
-          pushd '${{ env.PACKAGE_DIRECTORY }}'
+        run: |
+          pushd ${{ env.PACKAGE_DIRECTORY }}
           mvn clean package
           popd
       
@@ -44,5 +44,6 @@ jobs:
           respect-pom-xml: true
 
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_37159AB9E434407CA27F8D4CD40F0A2D }}
+
 
 
